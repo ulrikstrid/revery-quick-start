@@ -9,12 +9,12 @@
   },
   "dependencies": {
     "ocaml": "~4.6.0",
-    "revery": "^0.2.0",
+    "revery": "git://github.com/bryphe/revery.git#b3c4274f6b5ec20c6847751927f54ea5bab761f7",
     "@opam/dune": "*"
   },
   "scripts": {
-   "format": "bash -c \"refmt --in-place *.re\"",
-   "run": "esy x App"
+    "format": "bash -c \"refmt --in-place *.re\"",
+    "run": "esy x App"
   },
   "devDependencies": {
     "ocaml": "~4.6.0",

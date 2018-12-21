@@ -69,3 +69,6 @@ _esy/
 *.install
 .merlin
 
+# esy
+.esyrc
+esy.lock
